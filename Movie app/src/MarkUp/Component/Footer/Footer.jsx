@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react' 
 import './footer.css'
 
 function Footer() {
@@ -26,15 +26,14 @@ function Footer() {
             <div className="box">
                 <h3>Streamit app</h3>
                 <div className='img flexSB'>
-                     <img src="" alt="" /><span>App Store</span>
-                     <img src="" alt="" /> <span>Google Play Store</span>
+<img src="" alt="" /><span>App Store</span>
+<img src="" alt="" /> <span>Google Play Store</span>
                 </div>
-
             </div>
         </div>
     </footer>
     </>
-  )
+)
 }
 
 export default Footer

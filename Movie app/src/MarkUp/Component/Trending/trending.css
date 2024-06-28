@@ -2,5 +2,37 @@
    margin-top: 50px; 
 }
 .trending h1{
-   margin-top: 50px; 
+   font-size: 60px;
+   margin-top: 0px; 
+}
+@media(max-width:700px){
+   .detaile p{
+      display: none;
+  }
+}
+@media only screen and(max-width:768px) {
+   .trending h1{
+      font-size: 40px;
+      margin-top: 0px; 
+   }
+   .trending {
+      position: relative;
+      height: 60vh !important;
+   }
+   .trending .coverImge img{
+      width: 100vw;
+      height: 70vh !important;
+   }
+   .trending .content{
+      flex-direction: column;
+      padding: 50%;
+
+   }
+   .trending .row{
+      width: 100%;
+   }
+   .trending .playButton{
+      display: none;
+   }
+   
 }

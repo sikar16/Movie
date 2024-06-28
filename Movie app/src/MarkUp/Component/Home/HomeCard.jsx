@@ -9,7 +9,7 @@ export const HomeCard=({item:{id,cover,name,rating,time,desc,starring,genres,tag
       </div>
       <div className='content flex'>
       <div className='detaile'>
-      <h1>{name}</h1>
+      <h2>{name}</h2>
       <div className="rating flex">
         <i className='fa fa-star'></i>
         <i className='fa fa-star'></i>
@@ -21,7 +21,7 @@ export const HomeCard=({item:{id,cover,name,rating,time,desc,starring,genres,tag
       <span>GP </span>
       <label htmlFor="">{time}</label>
      
-      <p>{desc}</p>
+      <p >{desc}</p>
       <div className='cast'>
         <h4>
           <span>Starring</span>{starring}

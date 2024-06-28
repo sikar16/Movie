@@ -3,7 +3,7 @@ body{
     color: white;
 }
 .singHeading{
-    background-color: #1e272d;
+    background-color: #161717;
     padding: 15px 0;
     text-align: center;
     display: flex;
@@ -24,4 +24,22 @@ body{
 }
 video{
     width: 100%;
+    margin: 5% 0;
+}
+.singlepage h3{
+    font-weight: 500;
+}
+.singlepage p{
+    /* line-height: 25; */
+    /* margin-top: 20px; */
+}
+
+.social{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 30px 0;
+}
+.social i{
+    padding: 10px;
 }

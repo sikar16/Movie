@@ -8,7 +8,7 @@ export const homeData = [
     starring: "Karen Gilchrist, James Earl Jones",
     genres: "Action",
     tags: "Action, Adventures, Horror",
-    cover: "../public/images/video/video1.mp4",
+    cover: "../public/images/home1.jpg",
     video: "../video/video1.mp4",
     date: "20-Jan-1997",
   },
@@ -150,7 +150,8 @@ export const trending = [
     desc: "Piracy is an act of robbery or criminal violence by ship or boat-borne attackers upon another ship or a coastal area, typically with the goal of stealing cargo and other valuable items or properties. ",
     starring: "James Chinlund, Jeff Nathanson",
     genres: "Adventures",
-    tags: "../public/images/img/slide3.jpg",
+    tags: "Adventures,Animation,Family",
+    cover: "../public/images/img/slide3.jpg",
     date: "20-FEB-2010",
   },
 ]

@@ -9,6 +9,11 @@
 .homeContainer{
     position: relative;
 } 
+.detaile h2{
+    color: white;
+    font-size: 50px;
+    margin-top: 30px;
+}
 .coverImage{
     position: absolute;
     top: 0;
@@ -53,11 +58,11 @@
     margin-right: 5px;
 
 }
-.rating label{
+.label{
     margin: 0 20px;
 }
-.rating span{
-    background-color: beige;
+span{
+    /* background-color: beige; */
     padding: 5px;
     color: #fff;
     font-weight: bold;
@@ -114,4 +119,33 @@ color: brown;
 .margin{
     margin-top: 50%;
     
+}
+@media only screen and (max-width:768px) {
+    .homeContainer h1{
+        font-size: 50px;
+        margin: 0;
+    }
+    .home{
+        position: absolute;
+        margin: 0;
+        height: 60vh !important;
+    }
+    .coverImage img{
+        width: 100vw;
+        height: 70vh!important;
+    }
+    .home .row{
+        width: 100%;  
+    }
+    .home .playButton{
+        display: none;
+    }
+    .detaile h2{
+        color: white;
+        font-size: 40px;
+        margin-top: 20px;
+    }
+    .rating{
+        margin: 0 ;
+    }
 }

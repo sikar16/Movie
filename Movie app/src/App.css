@@ -117,7 +117,14 @@ box-shadow: 0 0 0.73em rgb(31, 3, 3);
   cursor: pointer;
 }
 .MovieBox button i{
-
+margin-right: 10px;
+}
+@media only screen and (max-width:768px) {
+  .MovieBox{
+    width: 300px;
+    height: 250px;
+    
+  }
 }
 
 

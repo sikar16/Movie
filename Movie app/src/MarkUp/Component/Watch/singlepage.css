@@ -1,0 +1,27 @@
+body{
+    background-color: #000000;
+    color: white;
+}
+.singHeading{
+    background-color: #1e272d;
+    padding: 15px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.singHeading h1{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.singHeading span{
+    word-spacing: 5px;margin-left: 10px;
+}
+.singHeading .container{
+    max-width: 80%;
+    margin:auto;
+
+}
+video{
+    width: 100%;
+}

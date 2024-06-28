@@ -8,7 +8,7 @@ export const homeData = [
     starring: "Karen Gilchrist, James Earl Jones",
     genres: "Action",
     tags: "Action, Adventures, Horror",
-    cover: "../public/images/home1.jpg",
+    cover: "../public/images/video/video1.mp4",
     video: "../video/video1.mp4",
     date: "20-Jan-1997",
   },
@@ -22,7 +22,7 @@ export const homeData = [
     genres: "Adventures",
     tags: "Adventures,Animation,Family",
     cover: "../public/images/home2.jpg",
-    video: "../video/video2.mp4",
+    video: "../public/images/video/video2.mp4",
     date: "10-JUL-2021",
   },
   {
@@ -35,7 +35,7 @@ export const homeData = [
     genres: "Adventures",
     tags: "Adventures,Action ",
     cover: "../public/images/home3.jpg",
-    video: "../video/video3.mp4",
+    video: "../public/images/video/video3.mp4",
     date: "20-FEB-2010",
   },
   {
@@ -48,7 +48,7 @@ export const homeData = [
     genres: "Action",
     tags: "Action, Adventures, Horror",
     cover: "../public/images/home4.jpg",
-    video: "../video/video4.mp4",
+    video: "../public/images/video/video4.mp4",
     date: "12-Aug-2015",
   },
 ]
